@@ -1,0 +1,167 @@
+{
+  "title": "TestBD Block Explorer",
+  "network": "testbd",
+  "icon": "/testbd/images/testbd/icon.svg",
+  "logo": {
+    "default": "/testbd/images/testbd/logo.svg"
+  },
+  "prefix": {
+    "consensus": "testbdvalcons",
+    "validator": "testbdvaloper",
+    "account": "testbd"
+  },
+  "genesis": {
+    "time": "2021-08-31T15:00:00",
+    "height": "1"
+  },
+  "primaryTokenUnit": "utestbd",
+  "votingPowerTokenUnit": "utestbd",
+  "tokenUnits": {
+    "ut": {
+      "display": "t",
+      "exponent": 18
+    },
+    "utestbd": {
+      "display": "testbd",
+      "exponent": 6
+    },
+    "utestingbd": {
+      "display": "testingbd",
+      "exponent": 8
+    }
+  },
+  "extra": {
+    "profile": true
+  },
+  "endpoints": {
+    "graphql": "https://example.com/v1/graphql",
+    "graphqlWebsocket": "wss://example.com/v1/graphql",
+    "publicRpcWebsocket": "wss://rpc.example.com/websocket"
+  },
+  "general": {
+    "basePath": "/testbd",
+    "previewImage": "https://s3.example.com/chain.png"
+  },
+  "marketing": {
+    "matomoURL": "https://example.bigdipper.live",
+    "matomoSiteID": "2"
+  },
+  "style": {
+    "themes": {
+      "default": "dark",
+      "themeList": [
+        "dark",
+        "deuteranopia",
+        "tritanopia"
+      ],
+      "light": {
+        "background": {
+          "default": "##fff",
+          "paper": "##fff",
+          "surfaceOne": "##fff",
+          "surfaceTwo": "##fff"
+        },
+        "primary": {
+          "main": "##fff",
+          "contrastText": "##fff"
+        },
+        "divider": "##fff",
+        "text": {
+          "primary": "##fff",
+          "secondary": "##fff"
+        },
+        "fonts": {
+          "fontOne": "##fff",
+          "fontTwo": "##fff",
+          "fontThree": "##fff",
+          "fontFour": "##fff",
+          "fontFive": "##fff",
+          "highlight": "##fff"
+        },
+        "primaryData": {
+          "one": "##fff",
+          "two": "##fff",
+          "three": "##fff",
+          "four": "##fff"
+        },
+        "results": {
+          "pass": "##fff",
+          "fail": "##fff"
+        },
+        "tokenomics": {
+          "one": "##fff",
+          "two": "##fff",
+          "three": "##fff"
+        },
+        "condition": {
+          "zero": "##fff",
+          "one": "##fff",
+          "two": "##fff",
+          "three": "##fff"
+        },
+        "charts": {
+          "zero": "##fff",
+          "one": "##fff",
+          "two": "##fff",
+          "three": "##fff",
+          "four": "##fff",
+          "five": "##fff"
+        }
+      },
+      "dark": {
+        "background": {
+          "default": "##000",
+          "paper": "##000█",
+          "surfaceOne": "##000█",
+          "surfaceTwo": "##000█"
+        },
+        "primary": {
+          "main": "##000█",
+          "contrastText": "##000█"
+        },
+        "divider": "##000█",
+        "text": {
+          "primary": "##000█",
+          "secondary": "##000█"
+        },
+        "fonts": {
+          "fontOne": "##000█",
+          "fontTwo": "##000█",
+          "fontThree": "##000█",
+          "fontFour": "##000█",
+          "fontFive": "##000█",
+          "highlight": "##000█"
+        },
+        "primaryData": {
+          "one": "##000█",
+          "two": "##000█",
+          "three": "##000█",
+          "four": "##000█"
+        },
+        "results": {
+          "pass": "##000█",
+          "fail": "##000█"
+        },
+        "tokenomics": {
+          "one": "##000█",
+          "two": "##000█",
+          "three": "##000█"
+        },
+        "condition": {
+          "zero": "##000█",
+          "one": "##000█",
+          "two": "##000█",
+          "three": "##000█"
+        },
+        "charts": {
+          "zero": "##000█",
+          "one": "##000█",
+          "two": "##000█",
+          "three": "##000█",
+          "four": "##000█",
+          "five": "##000█"
+        }
+      }
+    }
+  }
+}
